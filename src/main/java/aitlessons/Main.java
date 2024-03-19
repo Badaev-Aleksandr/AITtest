@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Введите ваше  имя");
-        String name = scanner.nextLine();
+        String firstname = scanner.nextLine();
 
-        System.out.println("Hello " + name);
+        System.out.println("Hello " + firstname);
     }
 }
