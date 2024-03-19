@@ -1,9 +1,14 @@
 package aitlessons;
 
+import java.util.Scanner;
+
 public class Main {
+   static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        System.out.println("Hello");
-        int a = 1;
-        java.lang.String hello = "aaa";
+        System.out.println("Введите ваше  имя");
+        String name = scanner.nextLine();
+
+        System.out.println("Hello " + name);
     }
 }
